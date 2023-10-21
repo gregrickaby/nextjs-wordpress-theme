@@ -34,8 +34,8 @@
 	<!-- Use WordPress PHP Compatibility. -->
 	<rule ref="PHPCompatibilityWP"/>
 
-	<!-- WordPress Core currently supports PHP 8.0+. -->
-	<config name="testVersion" value="8.0"/>
+	<!-- Supports PHP 8.0+. -->
+	<config name="testVersion" value="8.1"/>
 
 	<!-- Only sniff PHP files. -->
 	<arg name="extensions" value="php"/>
